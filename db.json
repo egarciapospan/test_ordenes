@@ -1,33 +1,35 @@
 {
-  "ordenes": {
-    "id": "1209309123",
-    "items": [
-      {
-        "id": 1000041,
-        "name": "Pollo Kumpao",
-        "quantity": 1,
-        "total": 21.99
-      }
-    ],
-    "discounts": [
-      {
-        "id": 101,
-        "name": "Cupon de 50%",
-        "quantity": 1,
-        "total": 11.00
-      }
-    ],
-    "payments": [
-      {
-        "id": 1,
-        "name": "Efectivo",
-        "amount": 13.96
-      }
-    ],
-    "subtotal": 21.99,
-    "discount": 11.00,
-    "tax": 0.77,
-    "service": 2.20,
-    "total": 13.96
-  }
+  "ordenes": [
+    {
+      "id": "1209309123",
+      "items": [
+        {
+          "id": 1000041,
+          "name": "Pollo Kumpao",
+          "quantity": 1,
+          "total": 21.99
+        }
+      ],
+      "discounts": [
+        {
+          "id": 101,
+          "name": "Cupon de 50%",
+          "quantity": 1,
+          "total": 11.00
+        }
+      ],
+      "payments": [
+        {
+          "id": 1,
+          "name": "Efectivo",
+          "amount": 13.96
+        }
+      ],
+      "subtotal": 21.99,
+      "discount": 11.00,
+      "tax": 0.77,
+      "service": 2.20,
+      "total": 13.96
+    }
+  ]
 }
